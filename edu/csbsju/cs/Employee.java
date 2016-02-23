@@ -34,6 +34,7 @@ public class Employee
 		return "Name: " + name ", salary: " + salary + ", hire day: " + hireDay;
 	}	
 
+
    public void raiseSalary(int amount)
    {
       double raise = salary * amount / 100;
